@@ -8,7 +8,7 @@ provider "aws" {
 
 resource "aws_instance" "m5_instance" {
   ami           = "ami-012967cc5a8c9f891"
-  instance_type = "m5.large"
+  instance_type = "c5.large"
 
   tags = {
     Name = "MyM5Instance"
